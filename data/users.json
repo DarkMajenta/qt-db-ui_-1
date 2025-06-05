@@ -1,0 +1,20 @@
+[
+  {
+    "login": "admin",
+    "active": true,
+    "permissions": {
+      "can_create": true,
+      "can_view": true,
+      "can_pass": true
+    }
+  },
+  {
+    "login": "user1",
+    "active": true,
+    "permissions": {
+      "can_create": false,
+      "can_view": true,
+      "can_pass": true
+    }
+  }
+]

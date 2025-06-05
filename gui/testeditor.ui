@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TestEditor</class>
+ <widget class="QWidget" name="TestEditor">
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLineEdit" name="testTitleEdit">
+     <property name="placeholderText">
+      <string>Test Title</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTextEdit" name="testDescriptionEdit">
+     <property name="placeholderText">
+      <string>Test Description</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="questionTypeCombo">
+     <item>
+      <property name="text">
+       <string>single</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>multi</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>text</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="questionTextEdit">
+     <property name="placeholderText">
+      <string>Question Text</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="optionEdit">
+     <property name="placeholderText">
+      <string>Option (for single/multi)</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="answerEdit">
+     <property name="placeholderText">
+      <string>Answer (for text)</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="addQuestionButton">
+     <property name="text">
+      <string>Add Question</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="saveTestButton">
+     <property name="text">
+      <string>Save Test</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

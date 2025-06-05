@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TestPasser</class>
+ <widget class="QWidget" name="TestPasser">
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPushButton" name="loadTestsButton">
+     <property name="text">
+      <string>Load Tests</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListWidget" name="testListWidget"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="questionLabel">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QVBoxLayout" name="optionsLayout"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="submitButton">
+     <property name="text">
+      <string>Submit</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TestViewer</class>
+ <widget class="QWidget" name="TestViewer">
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPushButton" name="loadTestsButton">
+     <property name="text">
+      <string>Load Tests</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListWidget" name="testListWidget"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
