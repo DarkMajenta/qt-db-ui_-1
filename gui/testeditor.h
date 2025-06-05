@@ -1,7 +1,7 @@
 #pragma once
 #include <QWidget>
-#include "core/test.h"
-#include "core/testmanager.h"
+#include "../core/test.h"
+#include "../core/testmanager.h"
 
 namespace Ui {
 class TestEditor;

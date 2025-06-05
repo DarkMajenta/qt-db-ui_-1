@@ -1,6 +1,6 @@
 #pragma once
 #include <QWidget>
-#include "core/testmanager.h"
+#include "../core/testmanager.h"
 
 namespace Ui {
 class TestPasser;

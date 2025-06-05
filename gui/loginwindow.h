@@ -1,7 +1,7 @@
 #pragma once
 #include <QDialog>
-#include "core/user.h"
-#include "core/usermanager.h"
+#include "../core/user.h"
+#include "../core/usermanager.h"
 
 namespace Ui {
 class LoginWindow;

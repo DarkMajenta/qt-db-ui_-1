@@ -1,6 +1,6 @@
 #include "testeditor.h"
-#include "./ui_testeditor.h"
-#include "core/utils.h"
+#include "ui_testeditor.h"
+#include "../core/utils.h"
 
 TestEditor::TestEditor(QWidget *parent)
     : QWidget(parent), ui(new Ui::TestEditor) {

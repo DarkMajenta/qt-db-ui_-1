@@ -1,5 +1,5 @@
 #include "testpasser.h"
-#include "./ui_testpasser.h"
+#include "ui_testpasser.h"
 #include <QCheckBox>
 
 TestPasser::TestPasser(QWidget *parent)
